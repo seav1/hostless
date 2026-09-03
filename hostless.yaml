@@ -1,0 +1,5 @@
+build:
+  system: auto
+  command: "npm install"
+
+start_command: "npm start"

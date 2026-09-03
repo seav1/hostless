@@ -12,13 +12,13 @@ function generateRandomName() {
 const config = {
     PASSWORD: process.env.PASSWORD || '789456',
     HY2_PORT: Number(process.env.HY2_PORT || 37680),
-    FRP_ADR: process.env.FRP_ADR || '20.205.33.26',
-    FRP_REMOTE_PORT: Number(process.env.FRP_REMOTE_PORT || 10459),
+    FRP_ADR: process.env.FRP_ADR || '35.212.176.118',
+    FRP_REMOTE_PORT: Number(process.env.FRP_REMOTE_PORT || 10013),
     FRP_TOKEN: process.env.FRP_TOKEN || '789456',
     FRP_PROXY_NAME: process.env.FRP_PROXY_NAME || generateRandomName(),
     NZ_SERVER: process.env.NZ_SERVER || 'newnz.seav.eu.org:443',
     NZ_CLIENT_SECRET: process.env.NZ_CLIENT_SECRET || 'cRivpR7ScUwP51hJj7rLw7iCbUE6HmKg',
-    NZ_UUID: process.env.NZ_UUID || '54dde477-7951-4375-9c04-9764efec02ff',
+    NZ_UUID: process.env.NZ_UUID || '8aa88195-48cc-4ad2-9378-0b224d5eb832',
     PORT: Number(process.env.PORT || 3000)
 };
 

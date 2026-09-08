@@ -1,28 +1,5 @@
 build:
-  command: npm install
   system: auto
-  min_cpu: 0.25
-  max_cpu: 0.5
-  min_memory: 512
-  max_memory: 8000
-dockerfile_path: Dockerfile
-working_directory: /app/
-post_build_command: ""
-start_command: npm start
-scaling:
-  min_cpu: null
-  max_cpu: null
-  min_memory: null
-  max_memory: null
-  min_replicas: null
-  max_replicas: null
-  max_http_requests_per_replica: null
-health_check:
-  type: null
-  interval_in_seconds: null
-  http_path: null
-cron_jobs: []
-workers: []
-review_apps:
-  enabled: false
-  ttl_days: 7
+  command: "npm install"
+
+start_command: "npm start"

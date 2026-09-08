@@ -6,7 +6,7 @@ build:
   min_memory: 512
   max_memory: 8000
 dockerfile_path: Dockerfile
-working_directory: /tmp/
+working_directory: /app/
 post_build_command: ""
 start_command: npm start
 scaling:
